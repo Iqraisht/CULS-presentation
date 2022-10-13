@@ -404,6 +404,10 @@ body.show {
   background-color: transparent;
 }
 
+button[disabled] {
+  opacity: 0.25;
+}
+
 .titles > span {
   display: none;
 }
